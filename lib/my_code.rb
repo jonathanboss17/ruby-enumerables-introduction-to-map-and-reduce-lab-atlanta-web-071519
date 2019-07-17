@@ -54,6 +54,6 @@ def reduce_to_total(source_array, starting_point = nil)
 end
 
 def reduce_to_all_true(source_array)
-  source_array.include?(false)
+  !source_array.include?(false)
 end
 
